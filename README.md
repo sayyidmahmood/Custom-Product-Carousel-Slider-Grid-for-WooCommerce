@@ -43,7 +43,7 @@ Use the shortcode in your posts, pages, or templates:
 ### 🔲 1. Default Grid Layout
 ```php
 [product_grid layout="grid" columns="3" per_page="12" category="your-category-slug"]
-
+```
 ### 🔲 2. Carousel Grid Layout
 ```php
 [product_grid layout="slider" columns="3" per_page="12" category="your-category-slug"]
