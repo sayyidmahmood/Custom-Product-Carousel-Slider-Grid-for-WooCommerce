@@ -17,7 +17,9 @@ function cpg_enqueue_frontend_assets() {
     // Bootstrap CSS
     wp_enqueue_style( 'cpg-bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css', array(), '4.6.2' );
 
-   
+    // Font Awesome for arrows
+    wp_enqueue_style( 'cpg-fontawesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css', array(), '6.5.2' );
+
     // Plugin CSS
     wp_enqueue_style( 'cpg-style', plugin_dir_url(__FILE__) . 'style.css', array('cpg-bootstrap'), '1.0' );
 
@@ -129,7 +131,8 @@ function cpg_display_product_grid( $atts ) {
                             <p><?php echo esc_html( wp_strip_all_tags( $short_desc ) ); ?></p>
                             <div class="arrow-btn">
                                 <span>Learn More</span>
-                                <i aria-hidden="true" class="icon icon-right-arrow"></i>
+                             
+                                <i class="fa-solid fa-arrow-right"></i>
                             </div>
                         </figcaption>
                     </figure>
