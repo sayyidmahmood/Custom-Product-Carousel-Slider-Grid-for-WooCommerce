@@ -188,7 +188,7 @@ function cpg_admin_enqueue_scripts( $hook ) {
     if ( ! $screen || $screen->post_type !== 'product' ) return;
 
     wp_enqueue_media();
-    wp_enqueue_script( 'cpg-admin-js', plugin_dir_url(__FILE__) . 'js/cpg-media-uploader.js', array('jquery'), '1.0', true );
+    wp_enqueue_script( 'cpg-admin-js', plugin_dir_url(__FILE__) . 'js/cpg-admin.js', array('jquery'), '1.0', true );
     wp_add_inline_script( 'cpg-admin-js', "
         jQuery(function($){
             $(document).on('click', '.cpg-remove-logo', function(e){
