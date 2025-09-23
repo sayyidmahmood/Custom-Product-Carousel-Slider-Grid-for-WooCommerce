@@ -14,7 +14,9 @@
     position: relative;
     width: 100%;
     margin: 0;
-    overflow: hidden; /* ensure hover area clipped properly */
+    padding: 10px;
+    /* overflow: hidden;  */
+   /* ensure hover area clipped properly */
 }
 
 .product-section figure > img { margin: 0 auto; width: 100%; display:block; }
@@ -156,5 +158,3 @@
 /* Positioning */
 .cpg-carousel-wrapper .slick-prev { right: 60px; left: auto; }
 .cpg-carousel-wrapper .slick-next { right: 10px; }
-
-
