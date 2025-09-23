@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Custom Product Grid
+Plugin Name: Custom Product Grid Slider for WooCommerce
 Description: WooCommerce product grid with hover effect, per-product brand logo (media uploader), and optional slider view.
 Version: 1.4
 Author: Sayyid
