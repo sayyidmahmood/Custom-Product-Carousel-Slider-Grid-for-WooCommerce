@@ -21,7 +21,7 @@ function cpg_enqueue_frontend_assets() {
     wp_enqueue_style( 'cpg-fontawesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css', array(), '6.5.2' );
 
     // Plugin CSS
-    wp_enqueue_style( 'cpg-style', plugin_dir_url(__FILE__) . 'style.css', array('cpg-bootstrap'), '1.0' );
+    wp_enqueue_style( 'cpg-style', plugin_dir_url(__FILE__) . 'style.css', array('cpg-bootstrap'), '1.1' );
 
     // Bootstrap JS
     wp_enqueue_script( 'cpg-bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js', array('jquery'), '4.6.2', true );
